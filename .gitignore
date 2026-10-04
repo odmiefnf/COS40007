@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+vendor/
+portfolio/assessment-1/output/
+~$*.docx
