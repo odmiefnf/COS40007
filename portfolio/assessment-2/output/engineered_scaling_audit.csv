@@ -1,0 +1,6 @@
+,Train_skew,IQR_flags,Scaler,Reason
+wall_to_surface,0.2139049906835129,0,StandardScaler,"Moderate skew, no IQR outliers"
+roof_to_surface,-0.21390499068351065,0,StandardScaler,"Moderate skew, no IQR outliers"
+glazing_wall_interaction,0.11258618103471292,0,StandardScaler,"Moderate skew, no IQR outliers"
+glazing_height_interaction,0.6240645358040212,0,StandardScaler,"Moderate skew, no IQR outliers"
+compactness_glazing,0.11305500477483235,0,StandardScaler,"Moderate skew, no IQR outliers"

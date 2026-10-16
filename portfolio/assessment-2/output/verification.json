@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "executed_code_cells": 19,
+  "error_outputs": 0,
+  "embedded_png_outputs": 14,
+  "prediction_rows": 231,
+  "model_metrics_independently_recomputed": 9,
+  "checks": [
+    "notebook schema",
+    "all code executed",
+    "no error outputs",
+    "figures present",
+    "all 9 accuracy/precision/recall/F1 values reproduce stored predictions",
+    "CV means and SDs reproduce 5 fold scores",
+    "CV-only selected procedures",
+    "test split IDs equal holdout prediction IDs"
+  ],
+  "student_verification": "pending"
+}

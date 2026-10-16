@@ -1,0 +1,17 @@
+,Train_skew,IQR_flags,Scaler,Reason,Raw_min,Raw_max,Scaled_min,Scaled_max
+relative_compactness,0.5325063779304163,0,StandardScaler,"Moderate skew, no IQR outliers",0.62,0.98,-1.3406253058076476,2.0980065652117825
+surface_area,-0.15716833795098523,0,StandardScaler,"Moderate skew, no IQR outliers",514.5,808.5,-1.8290875748001647,1.5241529179487012
+wall_area,0.5330977297036371,0,StandardScaler,"Moderate skew, no IQR outliers",245.0,416.5,-1.6897476073374218,2.2456682885618147
+roof_area,-0.2178528519171775,0,StandardScaler,"Moderate skew, no IQR outliers",110.25,220.5,-1.5149405665117286,0.9461376714550558
+overall_height,0.056044399480212476,0,StandardScaler,"Moderate skew, no IQR outliers",3.5,7.0,-0.9724464889715234,1.0283342182227604
+glazing_area,-0.0867233215930027,0,StandardScaler,"Moderate skew, no IQR outliers",0.0,0.4,-1.760842636277719,1.2243901835522262
+orientation_2,1.2195371156307624,129,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+orientation_3,1.0712567140164646,0,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+orientation_4,1.1608152726985106,134,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+orientation_5,1.1840333238772374,132,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+glazing_distribution_0,3.5330253656007016,35,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+glazing_distribution_1,1.767079071066734,91,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+glazing_distribution_2,1.664936484657494,97,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+glazing_distribution_3,1.4386548589972086,112,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+glazing_distribution_4,1.6486362191630293,98,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0
+glazing_distribution_5,1.5547158846278317,104,StandardScaler,Binary indicator retained,0.0,1.0,0.0,1.0

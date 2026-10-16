@@ -1,0 +1,17 @@
+,Feature,ANOVA_F,Selected
+4,overall_height,539.0352024138838,True
+3,roof_area,489.3580016748221,True
+1,surface_area,159.05766862576846,True
+0,relative_compactness,141.19106338026134,True
+2,wall_area,60.2537360352082,True
+5,glazing_area,28.93721781574136,True
+10,glazing_distribution_0,4.104368932038833,True
+11,glazing_distribution_1,1.9615785554728182,True
+15,glazing_distribution_5,1.1911134903640286,True
+13,glazing_distribution_3,1.0926465004429846,True
+14,glazing_distribution_4,0.8342193620593169,False
+8,orientation_4,0.7834856251392825,False
+12,glazing_distribution_2,0.38842742503168426,False
+7,orientation_3,0.295459413150555,False
+9,orientation_5,0.11991915562544121,False
+6,orientation_2,-9.678228730672157e-15,False

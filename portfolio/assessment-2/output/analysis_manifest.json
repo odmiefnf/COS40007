@@ -1,0 +1,132 @@
+{
+  "source_sha256": "483904d33ab6db8bb0d1791d81410c18567c6b967035325a844de8ca97046ddc",
+  "raw_rows": 768,
+  "clean_rows": 768,
+  "training_rows": 537,
+  "test_rows": 231,
+  "random_seed": 42,
+  "class_boundaries": [
+    14.463333333333333,
+    28.406666666666666
+  ],
+  "class_order": [
+    "Lower",
+    "Middle",
+    "Higher"
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "selected_tree": "M3 Engineered",
+  "selected_svm": "S3 K-Best",
+  "svm_best_parameters": {
+    "model__C": 100,
+    "model__gamma": "scale",
+    "model__kernel": "rbf"
+  },
+  "kbest_k": 10,
+  "kbest_features": [
+    "relative_compactness",
+    "surface_area",
+    "wall_area",
+    "roof_area",
+    "overall_height",
+    "glazing_area",
+    "glazing_distribution_0",
+    "glazing_distribution_1",
+    "glazing_distribution_3",
+    "glazing_distribution_5"
+  ],
+  "pca_threshold": 0.9,
+  "pca_components": 7,
+  "pca_retained_variance": 0.9136707633979284,
+  "geometry_groups": 12,
+  "row_holdout_geometry_overlap": 12,
+  "group_tree_mean": 0.6528002356074084,
+  "group_svm_mean": 0.6865475282800818,
+  "dataset": "UCI Energy Efficiency",
+  "workbook_sha256": "0089fcffc1415e41e2ff63730cca5280efe54fc43d722dfde1b0aaa808e35dc4",
+  "student_verification": "pending",
+  "class_identifier": "COS40007",
+  "online_submission_performed": false,
+  "outer_parameters": [
+    {
+      "fold": 1,
+      "svm": {
+        "model__C": 100,
+        "model__gamma": "scale",
+        "model__kernel": "rbf"
+      },
+      "k": {
+        "select__k": 10
+      },
+      "pca": {
+        "pca__n_components": 0.9
+      }
+    },
+    {
+      "fold": 2,
+      "svm": {
+        "model__C": 100,
+        "model__gamma": "scale",
+        "model__kernel": "rbf"
+      },
+      "k": {
+        "select__k": 10
+      },
+      "pca": {
+        "pca__n_components": 0.9
+      }
+    },
+    {
+      "fold": 3,
+      "svm": {
+        "model__C": 100,
+        "model__gamma": "scale",
+        "model__kernel": "rbf"
+      },
+      "k": {
+        "select__k": 10
+      },
+      "pca": {
+        "pca__n_components": 0.9
+      }
+    },
+    {
+      "fold": 4,
+      "svm": {
+        "model__C": 100,
+        "model__gamma": "scale",
+        "model__kernel": "rbf"
+      },
+      "k": {
+        "select__k": 10
+      },
+      "pca": {
+        "pca__n_components": 0.9
+      }
+    },
+    {
+      "fold": 5,
+      "svm": {
+        "model__C": 10,
+        "model__gamma": "scale",
+        "model__kernel": "rbf"
+      },
+      "k": {
+        "select__k": 10
+      },
+      "pca": {
+        "pca__n_components": 0.9
+      }
+    }
+  ],
+  "github_repository": "https://github.com/odmiefnf/COS40007",
+  "github_assessment_path": "https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-2",
+  "canvas_submission_performed": false
+}
