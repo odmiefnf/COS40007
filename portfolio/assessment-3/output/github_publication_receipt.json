@@ -1,0 +1,308 @@
+{
+  "repository": "https://github.com/odmiefnf/COS40007",
+  "assessment_url": "https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3",
+  "branch": "main",
+  "published_commit": "ab32422c36447ab32e8081fa23734b8889ea3494",
+  "remote_file_count": 73,
+  "remote_blob_hashes_verified": true,
+  "prior_assessments_unchanged": true,
+  "prior_commit": "e5866250e1cd8fe70fcd3c402ee10a6bc237a5ba",
+  "canvas_submission_performed": false,
+  "files": [
+    {
+      "sha": "af7d5dd8ffd51cf961d6506b4e8f28c34a61c871",
+      "path": "portfolio/assessment-3/.gitattributes"
+    },
+    {
+      "sha": "4e1b15b297f93ce2f916ded1ec07f9578ad54c1b",
+      "path": "portfolio/assessment-3/.gitignore"
+    },
+    {
+      "sha": "7343771cea927214e800c7f8efd40e7591def679",
+      "path": "portfolio/assessment-3/DEMO_GUIDE_VI.md"
+    },
+    {
+      "sha": "679897268d9035d81ae35fbf744b3219801bd413",
+      "path": "portfolio/assessment-3/GENAI_EVIDENCE.md"
+    },
+    {
+      "sha": "15fa9e3615bbea464b0633880a195e33039ce132",
+      "path": "portfolio/assessment-3/PACKAGE_SHA256.json"
+    },
+    {
+      "sha": "65e32b2745308b0bc49e8b7bb23ed371d6649862",
+      "path": "portfolio/assessment-3/Portfolio_Assessment_3_COS40007_NguyenVanTuanKiet.ipynb"
+    },
+    {
+      "sha": "e4622a964facc880a4670de721ae4eeeba610f29",
+      "path": "portfolio/assessment-3/Portfolio_Assessment_3_COS40007_NguyenVanTuanKiet.pdf"
+    },
+    {
+      "sha": "1172958f5d3e550104fcb917d59582cba93a398e",
+      "path": "portfolio/assessment-3/README.md"
+    },
+    {
+      "sha": "4b7dd2dadbdea43ce84df1b0d9cc13c2659f8336",
+      "path": "portfolio/assessment-3/RUBRIC_MAP.md"
+    },
+    {
+      "sha": "cb7aefd72ce3a5e3f3a8c03929fab7c6c48dc914",
+      "path": "portfolio/assessment-3/data/energy_data.csv"
+    },
+    {
+      "sha": "36ca09973acd170f5ded2172a4c9148417a85e2c",
+      "path": "portfolio/assessment-3/data/pa2_split_manifest.csv"
+    },
+    {
+      "sha": "38914d922038931f5d11348ed0bcb61019355bd3",
+      "path": "portfolio/assessment-3/models/ann_batch16.h5"
+    },
+    {
+      "sha": "e4604b566580cb400b3319fe1a83505b4f34e4e4",
+      "path": "portfolio/assessment-3/models/ann_batch16.keras"
+    },
+    {
+      "sha": "4e45fafdcd638fad26018f76eb25d9975a0673cc",
+      "path": "portfolio/assessment-3/models/ann_batch16_history.pkl"
+    },
+    {
+      "sha": "ef5a4dbff436c09186cea7b75a48be39ed8f4c2c",
+      "path": "portfolio/assessment-3/models/ann_batch32.h5"
+    },
+    {
+      "sha": "472a805c558c084e1e735c98c66100ab123778f1",
+      "path": "portfolio/assessment-3/models/ann_batch32.keras"
+    },
+    {
+      "sha": "fe0ab45881239754704e8bf35e8a380ce95be88e",
+      "path": "portfolio/assessment-3/models/ann_batch32_history.pkl"
+    },
+    {
+      "sha": "2e869c6280a3d1207a5bba549e866e7f8b6ac13c",
+      "path": "portfolio/assessment-3/models/ann_batch64.h5"
+    },
+    {
+      "sha": "4496fb7a6e71fdfb769183f48bec6e67c3854f6f",
+      "path": "portfolio/assessment-3/models/ann_batch64.keras"
+    },
+    {
+      "sha": "520de0ab490a32d04a8eeec0fdb1ea328d4897eb",
+      "path": "portfolio/assessment-3/models/ann_batch64_history.pkl"
+    },
+    {
+      "sha": "477817f059b92ff2c1f7ef9097bec34452fd265c",
+      "path": "portfolio/assessment-3/models/ann_preprocessor.pkl"
+    },
+    {
+      "sha": "628bc9ddefddcc1fd0f368e13617d861329827b3",
+      "path": "portfolio/assessment-3/models/model_metadata.json"
+    },
+    {
+      "sha": "d51a736a03b912273b3f774e49f382211c78d3ed",
+      "path": "portfolio/assessment-3/models/random_forest.pkl"
+    },
+    {
+      "sha": "d1f883ace76c817e7cc31d7f336cd7984084e58c",
+      "path": "portfolio/assessment-3/models/sklearn_mlp.pkl"
+    },
+    {
+      "sha": "ac0d3c84b992663d06d8e0b7ffe0627bcae0b4b1",
+      "path": "portfolio/assessment-3/output/01_data_and_classes.png"
+    },
+    {
+      "sha": "a7208bfd07fbbc7dbf1df14057b0848313d63e2f",
+      "path": "portfolio/assessment-3/output/02_ann_learning_curves.png"
+    },
+    {
+      "sha": "312ce0b6b6afc41113266a489e6d8d77765096a8",
+      "path": "portfolio/assessment-3/output/03_master_comparison.png"
+    },
+    {
+      "sha": "27d90947e8380049b640dd566ace5d8b6d26608d",
+      "path": "portfolio/assessment-3/output/04_confusion_matrices.png"
+    },
+    {
+      "sha": "8eccb3a43d81764500caa6b5c8bdc9d82c650216",
+      "path": "portfolio/assessment-3/output/05_validation_importance.png"
+    },
+    {
+      "sha": "69603171356f9119ffcec41c37481b3e52553ed1",
+      "path": "portfolio/assessment-3/output/06_geometry_stress.png"
+    },
+    {
+      "sha": "628bc9ddefddcc1fd0f368e13617d861329827b3",
+      "path": "portfolio/assessment-3/output/analysis_manifest.json"
+    },
+    {
+      "sha": "2cc61a139f3962746d310039ffc43fbddd95b8c3",
+      "path": "portfolio/assessment-3/output/ann_batch16_epochs.csv"
+    },
+    {
+      "sha": "17f1e6e232f2b19c1ee99a7a15db99d486f688b0",
+      "path": "portfolio/assessment-3/output/ann_batch32_epochs.csv"
+    },
+    {
+      "sha": "6870f37c335e6cae490c7ac19905b66c41e9b620",
+      "path": "portfolio/assessment-3/output/ann_batch64_epochs.csv"
+    },
+    {
+      "sha": "54e26f6832745e80e1ff894a5cf68ece795aee48",
+      "path": "portfolio/assessment-3/output/ann_batch_16_classification_report.csv"
+    },
+    {
+      "sha": "07c93ab7043f32aa03f47eaa677e4f0bbddca0d4",
+      "path": "portfolio/assessment-3/output/ann_validation.csv"
+    },
+    {
+      "sha": "3acd3478fd241ed0f5f07cb75942870f40480549",
+      "path": "portfolio/assessment-3/output/class_counts.csv"
+    },
+    {
+      "sha": "ab5d2dbf3fd70d05d50197a0a1df1f639ba2c36b",
+      "path": "portfolio/assessment-3/output/evidence/architecture.html"
+    },
+    {
+      "sha": "0a517eec28277fa0b8b228d6b91fe8f93ea8a2cf",
+      "path": "portfolio/assessment-3/output/evidence/results.html"
+    },
+    {
+      "sha": "411cb604ee80c59434168d86e08f2d7e7cf5899b",
+      "path": "portfolio/assessment-3/output/evidence/training.html"
+    },
+    {
+      "sha": "49b502956c029078b2ec168b61dc8d9f24c51693",
+      "path": "portfolio/assessment-3/output/evidence_architecture.png"
+    },
+    {
+      "sha": "acab592be90e01e7db518791937f8a585baff85c",
+      "path": "portfolio/assessment-3/output/evidence_architecture_full.png"
+    },
+    {
+      "sha": "ca1e7130a91f161031d0ccd803e050c2affed637",
+      "path": "portfolio/assessment-3/output/evidence_results.png"
+    },
+    {
+      "sha": "a4f4516fc15f01e5291a2bde49c033fda6d503da",
+      "path": "portfolio/assessment-3/output/evidence_training.png"
+    },
+    {
+      "sha": "bbaaccc15b0917e80a5094fb7f927ebebff8c657",
+      "path": "portfolio/assessment-3/output/fitting_correlations.csv"
+    },
+    {
+      "sha": "22b5974228322ff08ee38df51363294d5d3653cf",
+      "path": "portfolio/assessment-3/output/geometry_fold1_predictions.csv"
+    },
+    {
+      "sha": "2b604357791e70f06581b583deded1fdec6e9455",
+      "path": "portfolio/assessment-3/output/geometry_fold2_predictions.csv"
+    },
+    {
+      "sha": "e31374d1a8c25e30dc3740538483ca4d5c50ac1c",
+      "path": "portfolio/assessment-3/output/geometry_fold3_predictions.csv"
+    },
+    {
+      "sha": "f2eff9953878eced3b49bc44156f12897fb6c765",
+      "path": "portfolio/assessment-3/output/geometry_stress_folds.csv"
+    },
+    {
+      "sha": "1ce24936c443498b1d26132e86094d45a222e9b1",
+      "path": "portfolio/assessment-3/output/geometry_stress_summary.csv"
+    },
+    {
+      "sha": "19cbe3d24a096e8d56ca3ffe23181b6e5f77eaed",
+      "path": "portfolio/assessment-3/output/github_link_update.json"
+    },
+    {
+      "sha": "40ad002a1e4e61c485ef424b014cdfe8c4e3a61b",
+      "path": "portfolio/assessment-3/output/holdout_predictions.csv"
+    },
+    {
+      "sha": "277a064b3c1467c3ad5145a5454ee65fde843254",
+      "path": "portfolio/assessment-3/output/inference_demo.csv"
+    },
+    {
+      "sha": "d9a63c2f85bc8b20019cfab2d531f0de36aedf53",
+      "path": "portfolio/assessment-3/output/interpretation.md"
+    },
+    {
+      "sha": "9ab1b2bd96c756b00c24ec6931e063d510569793",
+      "path": "portfolio/assessment-3/output/master_results.csv"
+    },
+    {
+      "sha": "585d1ea5d4613fd7ccfa90d5f292d4d65b455691",
+      "path": "portfolio/assessment-3/output/pdf_verification.json"
+    },
+    {
+      "sha": "14d69e723d32823fc51d01d48cc7e7d456b5f5c3",
+      "path": "portfolio/assessment-3/output/random_forest_classification_report.csv"
+    },
+    {
+      "sha": "07a2da5557fd03f94dfdde2cf361a45370664458",
+      "path": "portfolio/assessment-3/output/random_forest_cv_grid.csv"
+    },
+    {
+      "sha": "678842e1798278c7b7f32d2d4bb48ab7244e4bf6",
+      "path": "portfolio/assessment-3/output/rf_validation_permutation_importance.csv"
+    },
+    {
+      "sha": "149540010e0d6ef160bef31778a88e9c5263bd0d",
+      "path": "portfolio/assessment-3/output/sklearn_mlp_cv_grid.csv"
+    },
+    {
+      "sha": "61797e5982284890953b9c7943b78c78191a8256",
+      "path": "portfolio/assessment-3/output/split_manifest.csv"
+    },
+    {
+      "sha": "b05d09bbfdc97814f26ee9184ec81e1bf35ca79e",
+      "path": "portfolio/assessment-3/output/traditional_cv.csv"
+    },
+    {
+      "sha": "8df0884c3552baf113980f64fc316a30cb5b5bb0",
+      "path": "portfolio/assessment-3/output/verification.json"
+    },
+    {
+      "sha": "230fef3bf3dd9130f53afd3da5ed68da7acaba4d",
+      "path": "portfolio/assessment-3/requirements-lock.txt"
+    },
+    {
+      "sha": "a56361e911829f2539dd96fb80ef54dacd346882",
+      "path": "portfolio/assessment-3/requirements.txt"
+    },
+    {
+      "sha": "91cc7c0be7658eda63e1fa60eb9c893aab904544",
+      "path": "portfolio/assessment-3/tools/build_evidence.py"
+    },
+    {
+      "sha": "edf9112d7e2ca4621341cdeba6f45dab5930c4f2",
+      "path": "portfolio/assessment-3/tools/build_notebook.py"
+    },
+    {
+      "sha": "b33882cecf141e51384ff92bb2ae603b274fd43e",
+      "path": "portfolio/assessment-3/tools/execute_notebook.py"
+    },
+    {
+      "sha": "6c452288f32a4a13e7d04107ac56e016e62aeb1a",
+      "path": "portfolio/assessment-3/tools/package_submission.py"
+    },
+    {
+      "sha": "84317191d92839c20e1d91798f597a49a75f1fa6",
+      "path": "portfolio/assessment-3/tools/predict.py"
+    },
+    {
+      "sha": "844f97b45e03546b7ac2f5614bf4cb650ec7df1d",
+      "path": "portfolio/assessment-3/tools/prepare_github_publication.py"
+    },
+    {
+      "sha": "5f2c37350da8e2b82098be9301c964d996eeb3e8",
+      "path": "portfolio/assessment-3/tools/render_report.py"
+    },
+    {
+      "sha": "49ed9cbc601e7fbac4b98c4785819df1bf22e039",
+      "path": "portfolio/assessment-3/tools/verify_analysis.py"
+    }
+  ],
+  "analysis_code_and_outputs_unchanged": true,
+  "analysis_evidence_sha256": "f23397e7ac5e1fa0e269e41c47cf2d67c8d94affa47a15a0d793364dd82620af",
+  "verification_scope": "Artifact files at published_commit; the receipt and subsequent checksum update are committed separately."
+}
