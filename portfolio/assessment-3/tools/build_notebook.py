@@ -23,8 +23,9 @@ generation. This reference does not satisfy that authorship restriction merely b
 disclosing assistance. Student authorship, understanding, approval for any use beyond
 the permitted scope, and the in-person demonstration are not established by this file.
 
-**Repository:** https://github.com/odmiefnf/COS40007 . Assessment 3 is prepared locally;
-publication status is recorded in README.md. No Canvas submission is performed.
+**GitHub repository:** [https://github.com/odmiefnf/COS40007](https://github.com/odmiefnf/COS40007)  
+**Portfolio 3 code, notebook, saved models and results:** [portfolio/assessment-3](https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3)  
+No Canvas submission has been performed.
 
 ### Acknowledgement of Country
 I acknowledge the Traditional Owners of the lands on which Swinburne operates and
@@ -589,11 +590,17 @@ display(Markdown(summary))
 ''')
 md('''
 ## D - Repository and reproducibility
-The existing project repository is https://github.com/odmiefnf/COS40007 . Local source,
-models, results, exact versions, dataset hashes and verification scripts accompany this
-notebook. README.md records whether Assessment 3 has been published. A pre-existing
-repository link is not evidence that these new files are already online. Preserve
-genuine development milestones; do not backdate commits or invent authorship history.
+The complete Assessment 3 files are in [portfolio/assessment-3](https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3) on the main
+branch of [https://github.com/odmiefnf/COS40007](https://github.com/odmiefnf/COS40007), the same repository as Portfolio 1 and 2. The repository
+contains the executed notebook, source data, saved models, histories, metrics, figures,
+PDF and reproducibility scripts. Real local development milestones are retained in
+the integration history with OpenAI Codex attribution; no backdating or student-authorship
+claim is made. No Canvas submission has been performed.
+
+Historical execution note: code outputs and model metadata were recorded before
+GitHub publication. Their publication flags describe that analysis run. The subsequent
+publication is recorded separately in output/github_publication_receipt.json. No
+analysis code, predictions, model weights or recorded outputs were changed to add links.
 
 ## References
 1. Tsanas, A. and Xifara, A. (2012). Energy Efficiency [Dataset]. UCI Machine Learning

@@ -10,7 +10,7 @@
 | DL evaluation (12) | Accuracy, loss, weighted/macro F1, class report, confusion matrices, curves | Executed |
 | Summary/reflection (8) | Notebook Part C and report; validation selection, observed ranking, limits | Assistant draft |
 | Model artifacts | Genuine `.h5`, `.keras`, `.pkl`, histories and metadata | Reload verified |
-| GitHub (4) | Separate local branch with real milestones attributed to Codex | Publication pending |
+| GitHub (4) | Main-branch folder linked on PDF cover; real local milestones retained with Codex attribution | Published; see receipt |
 | GenAI reflection (12) | Report-only four-part template; exact prompts and actual scope | Honest disclosure; whole-code restriction not satisfied |
 | Studio demo (20) | `DEMO_GUIDE_VI.md` | Student must perform |
 

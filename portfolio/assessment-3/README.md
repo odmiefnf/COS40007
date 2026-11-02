@@ -75,12 +75,19 @@ geometry holdout folds assess a different generalisation setting with fixed mode
 
 Existing repository: https://github.com/odmiefnf/COS40007 .
 
-Assessment 3 is prepared locally in `portfolio3_publication/portfolio/assessment-3`
-on branch `assessment-3-reference`. Its new history is independent of the existing
-main branch. Commits are made as real milestones complete, explicitly attributed to
-OpenAI Codex. No backdating or student-authorship claim is made. No remote push or
-Canvas submission has been performed. The report does not present a future subfolder
-URL as an already-published artifact.
+Assessment 3 files: https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3
+
+The executed notebook, PDF, source data, model files, training histories, results and
+reproducibility scripts are published on `main`, alongside the previous assessments.
+Local development milestones from `assessment-3-reference` are retained in the
+integration history and explicitly attributed to OpenAI Codex. No backdating or
+student-authorship claim is made. Publication was expressly requested by the student.
+No Canvas submission has been performed.
+
+`output/github_publication_receipt.json` records the verified publication commit.
+The analysis/model metadata and stored notebook outputs were recorded before
+publication; their publication flags describe that earlier execution run. Repository
+link updates preserve all executed code cells, predictions and model artifacts.
 
 Canvas displayed Due 1 November at 23:59 and Available until 5 November at 23:59
 when accessed on 2 November 2026; interpret displayed times in the account timezone.

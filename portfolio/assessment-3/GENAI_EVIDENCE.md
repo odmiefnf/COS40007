@@ -39,3 +39,14 @@ No personal learning experiences are fabricated. Student verification is pending
 No personal signature, independent-authorship declaration, live demo or Canvas
 submission has been performed. The mandatory report reflection describes actual
 assistance and labels learning opportunities separately from proven student learning.
+
+
+## Subsequent GitHub publication request
+
+Exact user prompt: "đẩy lên github của tôi và gắn link vào bài làm như bài trươcs"
+
+The user expressly requested publishing to the same repository as previous work.
+The assistant added direct https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3 links to the report, notebook and documentation,
+preserved all executed analysis code and outputs, retained genuine local milestone
+commits in the main-branch integration history, and verified published artifacts.
+No Canvas submission, student signature or independent-authorship declaration was made.

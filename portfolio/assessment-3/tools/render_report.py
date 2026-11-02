@@ -14,6 +14,8 @@ from PIL import Image as PILImage
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'output'
 DEST=ROOT/'Portfolio_Assessment_3_COS40007_NguyenVanTuanKiet.pdf'
+REPO='https://github.com/odmiefnf/COS40007'
+PA3=REPO+'/tree/main/portfolio/assessment-3'
 M=json.loads((OUT/'analysis_manifest.json').read_text(encoding='utf-8'))
 R=pd.read_csv(OUT/'master_results.csv',index_col=0)
 CV=pd.read_csv(OUT/'traditional_cv.csv',index_col=0)
@@ -79,7 +81,7 @@ p('Continue the Portfolio 2 Energy Efficiency classification task and compare tw
 p(f'Training CV selects <b>{escape(M["selected_traditional"])}</b>; validation loss selects <b>{escape(M["selected_ann"])}</b>. The observed leader on the reused 231-row comparison set is <b>{escape(M["observed_test_leader"])}</b>. These results do not establish readiness for unseen real buildings.')
 h('Acknowledgement of Country')
 p('I acknowledge the Traditional Owners of the lands on which Swinburne operates and pay respect to Elders past and present. I recognise the continuing connections of Aboriginal and Torres Strait Islander peoples to Country, culture and community.')
-p('Repository: <link href="https://github.com/odmiefnf/COS40007" color="#087f8c">github.com/odmiefnf/COS40007</link>. Assessment 3 is prepared locally; no remote push or Canvas submission has been performed.','Smallx')
+p(f'GitHub repository: <link href="{REPO}" color="#087f8c">github.com/odmiefnf/COS40007</link><br/>Portfolio 3 code, notebook, models and results: <link href="{PA3}" color="#087f8c">portfolio/assessment-3</link><br/>Canvas submission has not been performed.','Smallx')
 
 page(); title('A.1-A.2 | Dataset and preparation','A fixed, comparable task')
 p('The UCI Energy Efficiency dataset contains 768 simulated building configurations and eight explanatory variables [1]. It is the replacement dataset used for Portfolio 2. No claim is made that it was the dataset originally submitted in Portfolio 1.')
@@ -184,6 +186,8 @@ p('<b>Task 1:</b> access Canvas and complete Portfolio 3. Exact user prompt:', '
 p(escape('"truy cập vào cavas swindburne của tôi, tìm kiếm assignment Portfolio Assessment 3: Advanced ML - Regression/Classification using ML and Deep Learning rồi hoàn thiện bài tập"'))
 p('<b>Task 2:</b> locate the exact assignment. Exact URL supplied:', 'Smallx')
 p('"https://swinburne.instructure.com/courses/78034/assignments/803620"')
+p('<b>Task 3:</b> publish to the same GitHub repository and add links to the work. Exact user prompt:', 'Smallx')
+p(escape('"đẩy lên github của tôi và gắn link vào bài làm như bài trươcs"'))
 p('The user replied "ok" to using COS40007 temporarily as the class identifier. No separate student-written debugging prompts are invented. The full record is in GENAI_EVIDENCE.md.')
 h('3. Code Attribution only for debugging and helping find errors')
 p('<b>The actual use exceeds that category.</b> All new notebook modelling sections, experiment design, verification/inference/rendering scripts and drafted interpretations are substantially AI generated. Describing them as only debugging assistance would be inaccurate. The brief explicitly prohibits whole-code generation; this package is therefore labelled a reference. Disclosure alone does not remove that restriction or demonstrate independent student authorship.')
@@ -204,7 +208,7 @@ h('Exact execution environment')
 table(['Component','Version'],[[k,v] for k,v in M['versions'].items()],[170,329])
 p('Run: python -m pip install -r requirements.txt; then Restart Kernel and Run All from the notebook folder. The data are included. tools/predict.py demonstrates inference on a CSV containing X1-X8. tools/verify_analysis.py independently recalculates metrics and checks stored model predictions and executed cells.')
 h('GitHub development record')
-p('Existing project: <link href="https://github.com/odmiefnf/COS40007" color="#087f8c">github.com/odmiefnf/COS40007</link>. Assessment 3 is prepared in a separate local branch, assessment-3-reference, with real development milestones attributed to OpenAI Codex. The branch has independent history and has not been pushed or merged. The existing repository link is not evidence that Assessment 3 is already online. No student-authorship history has been fabricated.')
+p(f'Code, the executed notebook, saved models, results and reproducibility files are available in <link href="{PA3}" color="#087f8c">portfolio/assessment-3 on the main branch</link> of <link href="{REPO}" color="#087f8c">odmiefnf/COS40007</link>, the same repository as Portfolio 1 and 2. Real local development milestone commits are retained in the integration history and attributed to OpenAI Codex. Publication was separately requested by the student; it does not establish independent student authorship. No history was backdated or invented.')
 p('No Canvas submission has been performed. Canvas displayed a 1 November 23:59 due date and 5 November 23:59 availability cutoff when accessed on 2 November 2026. The printed May date in the option PDF is stale relative to the live assignment; displayed times use the Canvas account setting.','Smallx')
 
 if (OUT/'evidence_architecture.png').exists():
@@ -235,7 +239,7 @@ table(['Rubric / brief component','Evidence'],[
     ['Deep-learning evaluation','B.4; accuracy/loss, per-class report, confusion matrix and Figure 3 curves.'],
     ['Final summary / reflection','C.1-C.3; selected versus observed winners, limits and three reflection questions.'],
     ['Model saving','B.5; .h5, .pkl and native checkpoints; independent reload verification.'],
-    ['GitHub integration','Prepared locally with staged milestones; remote publication remains pending.'],
+    ['GitHub integration','Direct link on the cover; complete code, models, results and retained milestone history.'],
     ['GenAI reflection','E; exact four-part template with truthful full-assistance disclosure.'],
     ['Studio demo','Student-led in-person performance remains outstanding (20 rubric points).']], [170,329])
 p('The report explains actual computed artifacts; it does not certify compliance with the independent-authorship restriction. Read GENAI_EVIDENCE.md and the Vietnamese demo guide before deciding how to use the reference.','Smallx')

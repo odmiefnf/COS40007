@@ -8,7 +8,7 @@ assert DEST.resolve().parent==WORKSPACE.resolve()
 DEST.mkdir(exist_ok=True)
 selected=[]
 for path in ROOT.iterdir():
-    if path.is_file() and (path.suffix in ['.ipynb','.pdf','.md','.txt'] or path.name=='.gitignore'):
+    if path.is_file() and (path.suffix in ['.ipynb','.pdf','.md','.txt'] or path.name in ['.gitignore','.gitattributes']):
         selected.append(path)
 for folder in ['data','models','output','tools']:
     for path in (ROOT/folder).rglob('*'):
