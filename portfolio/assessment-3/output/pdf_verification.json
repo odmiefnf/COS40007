@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "pages": 15,
-  "sha256": "b6fb5844675ed2d8452b0984f1fb225d21087ee253dd100f7afc917701b745c5",
+  "sha256": "785a30454841d71cd29dfe042f1204b4df8bfdad579bc6cbdc2915085d12d8e9",
   "visual_review": "All 15 pages inspected via rendered contact sheet; pages 11, 13 and 14 inspected at full resolution; no clipping or overlap observed.",
   "actual_notebook_screenshots": 3,
   "model_results_match_verified_tables": true,
@@ -9,5 +9,11 @@
     "https://github.com/odmiefnf/COS40007",
     "https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3"
   ],
-  "github_assessment_url": "https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3"
+  "github_assessment_url": "https://github.com/odmiefnf/COS40007/tree/main/portfolio/assessment-3",
+  "cover_layout_update": {
+    "prepared_line_removed": true,
+    "canvas_status_line_removed": true,
+    "github_links_above_authorship_panel": true,
+    "pages_2_to_15_text_unchanged": true
+  }
 }

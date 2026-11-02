@@ -72,7 +72,8 @@ def metric_rows():
 
 title('Portfolio Assessment 3 | Option 3d','Advanced ML and<br/>Deep Learning')
 p('Building heating-demand classification','H2x')
-p('<b>Nguyen Van Tuan Kiet</b><br/>Student ID: 104772099<br/>COS40007 - Artificial Intelligence Engineering<br/>Swinburne Vietnam | Class identifier: COS40007<br/>Prepared: 2 November 2026')
+p('<b>Nguyen Van Tuan Kiet</b><br/>Student ID: 104772099<br/>COS40007 - Artificial Intelligence Engineering<br/>Swinburne Vietnam | Class identifier: COS40007')
+p(f'GitHub repository: <link href="{REPO}" color="#087f8c">github.com/odmiefnf/COS40007</link><br/>Portfolio 3 code, notebook, models and results: <link href="{PA3}" color="#087f8c">portfolio/assessment-3</link>','Smallx')
 story.append(Spacer(1,12))
 table(['REFERENCE IMPLEMENTATION - AUTHORSHIP STATUS'],[[
     'OpenAI Codex substantially generated the code, experiment, analysis and report. The supplied brief explicitly prohibits whole-code GenAI generation. This reference is not evidence of independent student authorship, and disclosure alone does not satisfy that restriction. Student review and in-person demonstration remain pending.']], [499])
@@ -81,7 +82,6 @@ p('Continue the Portfolio 2 Energy Efficiency classification task and compare tw
 p(f'Training CV selects <b>{escape(M["selected_traditional"])}</b>; validation loss selects <b>{escape(M["selected_ann"])}</b>. The observed leader on the reused 231-row comparison set is <b>{escape(M["observed_test_leader"])}</b>. These results do not establish readiness for unseen real buildings.')
 h('Acknowledgement of Country')
 p('I acknowledge the Traditional Owners of the lands on which Swinburne operates and pay respect to Elders past and present. I recognise the continuing connections of Aboriginal and Torres Strait Islander peoples to Country, culture and community.')
-p(f'GitHub repository: <link href="{REPO}" color="#087f8c">github.com/odmiefnf/COS40007</link><br/>Portfolio 3 code, notebook, models and results: <link href="{PA3}" color="#087f8c">portfolio/assessment-3</link><br/>Canvas submission has not been performed.','Smallx')
 
 page(); title('A.1-A.2 | Dataset and preparation','A fixed, comparable task')
 p('The UCI Energy Efficiency dataset contains 768 simulated building configurations and eight explanatory variables [1]. It is the replacement dataset used for Portfolio 2. No claim is made that it was the dataset originally submitted in Portfolio 1.')

@@ -50,7 +50,7 @@
   "output/inference_demo.csv": "5d74966de0cdf79ea4da07cec64a76bb5a674e76d9ca0c5ccb09dc467c806e6c",
   "output/interpretation.md": "81e8365d43c49bc1a55d75e52aaa05d91a2ffda206b36f3011fa9fd148ded634",
   "output/master_results.csv": "6d2ba1684c1dc84bf562ebc9f8d68a16fe9026bdd1e338f71bd5ccd8ea415875",
-  "output/pdf_verification.json": "73466dd0542a5a9a2416f6e6fa83cc08f418641cd95fc342bfd1ceeedd361eda",
+  "output/pdf_verification.json": "fb957c42f791c91033daf248f8e9c99712f6c6a8cf0f472715b21c9a1e7ff48b",
   "output/random_forest_classification_report.csv": "9c0e9376e9d135ce59132ccff9b15be26713f67211e051beeda4ce5b9f8c8f6f",
   "output/random_forest_cv_grid.csv": "a611289280e56ac3d573dfed18f88884a9b7b4898ba3cad96e51056631630d67",
   "output/rf_validation_permutation_importance.csv": "40488a033b2f5e053ee6dcc2fb7a3d015f6dc8d2355d0e0ea5f8ba666d5e7d5d",
@@ -59,7 +59,7 @@
   "output/traditional_cv.csv": "4a7276eecf894b985f40b59e07edae7f606df80129648289e92e8894d3f37d2f",
   "output/verification.json": "5354826a720cc3f8b5a7bccf4d4b41b2c588168cc04009706b1303c70b6f03d3",
   "Portfolio_Assessment_3_COS40007_NguyenVanTuanKiet.ipynb": "be793bfaa94d740adcd9409b1051189edcf15d3c792db9086c0374c5dda7add5",
-  "Portfolio_Assessment_3_COS40007_NguyenVanTuanKiet.pdf": "b6fb5844675ed2d8452b0984f1fb225d21087ee253dd100f7afc917701b745c5",
+  "Portfolio_Assessment_3_COS40007_NguyenVanTuanKiet.pdf": "785a30454841d71cd29dfe042f1204b4df8bfdad579bc6cbdc2915085d12d8e9",
   "README.md": "1bde81f86183b6b45df4563ebed7fae667f256878e9753b87f40a08ddced1db5",
   "requirements-lock.txt": "18b3fc40fca1fa7f86632557d31cf3ee45effb5077aa4150897223f0ae3b82c6",
   "requirements.txt": "112f16122d7ee17a1437f05986b6913389a1a50763af2e3c3e7bcc73064db2c6",
@@ -70,6 +70,6 @@
   "tools/package_submission.py": "0ace6e591ceb6845af1ac05d2533cbc213d469ebae529fe22ca9644c65361346",
   "tools/predict.py": "1461ac788f18eb51ac9e4a195e51ee7bb42b79bde6d1ab4f9987716e3ab3a8f7",
   "tools/prepare_github_publication.py": "d27977ac66e7ebe20d99b8bf9c05d583036ad70e660c990ff5c878bcb897c397",
-  "tools/render_report.py": "f105ab407af3820305f1a69e4958ad4cdc3b05565fa19578af9bbff316466a3d",
+  "tools/render_report.py": "6f8e4d31301668908b0e91b447059ffb54e6637cd77e6444eeeb9e2ce8381b35",
   "tools/verify_analysis.py": "900e0a9572b269bac7c65ba0c26770f1589068c6616900cbdb96c1cf3618edc0"
 }
