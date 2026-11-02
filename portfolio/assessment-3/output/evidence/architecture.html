@@ -1,0 +1,49 @@
+<!doctype html><meta charset="utf-8"><title>Portfolio 3 evidence</title>
+    <style>body{font:15px Arial,sans-serif;background:#edf3f5;color:#213d4d;margin:0;padding:28px}
+    main{background:white;max-width:1130px;padding:28px;margin:auto;border-radius:10px}
+    h1{font-size:24px;margin:8px 0 16px}h2{font-size:16px;color:#087f8c;margin-top:22px}
+    pre{font:13px Consolas,monospace;line-height:1.35;white-space:pre-wrap;background:#f5f8fa;padding:14px;overflow-wrap:anywhere}
+    pre.code{font-size:12px;line-height:1.25}table{border-collapse:collapse;font-size:12px;width:100%}
+    th,td{padding:7px 6px;text-align:right;border-bottom:1px solid #d6e2e7}th{background:#edf4f5}
+    .tag{font-size:11px;color:#58717c;letter-spacing:.7px}.foot{font-size:12px;color:#607786;margin-top:18px}
+    </style><main><div class="tag">COS40007 | PORTFOLIO 3 | AI-GENERATED REFERENCE</div><h1>B.2 - Executed ANN architecture</h1><div>Nguyen Van Tuan Kiet | 104772099 | Cell execution 6</div><h2>Executed code</h2><pre class="code">def build_ann(input_dim, seed=SEED):
+    keras.utils.set_random_seed(seed)
+    model = keras.Sequential([
+        keras.layers.Input(shape=(input_dim,), name=&#x27;tabular_features&#x27;),
+        keras.layers.Dense(64, activation=&#x27;relu&#x27;, name=&#x27;dense_64&#x27;),
+        keras.layers.Dropout(.2, name=&#x27;dropout_1&#x27;),
+        keras.layers.Dense(32, activation=&#x27;relu&#x27;, name=&#x27;dense_32&#x27;),
+        keras.layers.Dropout(.2, name=&#x27;dropout_2&#x27;),
+        keras.layers.Dense(16, activation=&#x27;relu&#x27;, name=&#x27;dense_16&#x27;),
+        keras.layers.Dense(3, activation=&#x27;softmax&#x27;, name=&#x27;demand_band&#x27;)
+    ], name=&#x27;heating_demand_ann&#x27;)
+    model.compile(optimizer=keras.optimizers.Adam(learning_rate=.001),
+                  loss=&#x27;sparse_categorical_crossentropy&#x27;, metrics=[&#x27;accuracy&#x27;])
+    return model
+prototype = build_ann(A_fit.shape[1])
+prototype.summary()
+assert prototype.count_params() == 3747</pre><h2>Stored notebook output</h2><pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold">Model: "heating_demand_ann"</span>
+</pre>
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃<span style="font-weight: bold"> Layer (type)                    </span>┃<span style="font-weight: bold"> Output Shape           </span>┃<span style="font-weight: bold">       Param # </span>┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ dense_64 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">64</span>)             │         <span style="color: #00af00; text-decoration-color: #00af00">1,088</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_1 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dropout</span>)             │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">64</span>)             │             <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_32 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">32</span>)             │         <span style="color: #00af00; text-decoration-color: #00af00">2,080</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_2 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dropout</span>)             │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">32</span>)             │             <span style="color: #00af00; text-decoration-color: #00af00">0</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_16 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">16</span>)             │           <span style="color: #00af00; text-decoration-color: #00af00">528</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ demand_band (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)             │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">3</span>)              │            <span style="color: #00af00; text-decoration-color: #00af00">51</span> │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+</pre>
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Total params: </span><span style="color: #00af00; text-decoration-color: #00af00">3,747</span> (14.64 KB)
+</pre>
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Trainable params: </span><span style="color: #00af00; text-decoration-color: #00af00">3,747</span> (14.64 KB)
+</pre>
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Non-trainable params: </span><span style="color: #00af00; text-decoration-color: #00af00">0</span> (0.00 B)
+</pre>
+<div class="foot">Rendered directly from saved executed notebook outputs. No values entered manually.</div></main>

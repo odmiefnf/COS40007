@@ -27,3 +27,16 @@ covers target preparation, encoding/scaling, five Decision Tree configurations,
 SVM tuning with nested cross-validation, K-Best selection, PCA and validation on
 unseen building geometries. GenAI assistance is disclosed; student verification
 and the in-person demonstration remain separate. No Canvas submission was performed.
+
+## Portfolio Assessment 3
+
+The Energy Efficiency reference implementation is in
+[portfolio/assessment-3](portfolio/assessment-3).
+
+It includes the executed notebook, PDF report with direct repository links, source
+data, Random Forest and MLP pipelines, three ANN variants, training histories,
+comparison results, geometry-disjoint sensitivity analysis and verification evidence.
+The genuine local development milestones are retained in the integration history.
+Substantial GenAI assistance and the assessment's whole-code restriction are disclosed;
+student verification and the studio demonstration remain separate. No Canvas submission
+has been performed.

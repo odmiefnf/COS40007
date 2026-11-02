@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "model_checks": {
+    "Random Forest": "metrics and saved-model predictions match",
+    "sklearn MLP": "metrics and saved-model predictions match",
+    "ANN batch 16": "metrics and saved-model predictions match",
+    "ANN batch 32": "metrics and saved-model predictions match",
+    "ANN batch 64": "metrics and saved-model predictions match"
+  },
+  "rows": 231,
+  "code_cells_executed": 14,
+  "geometry_fold_metric_checks": 9,
+  "source_hash_verified": true,
+  "prior_partition_preserved": true,
+  "architecture_verified": true,
+  "student_authorship_or_understanding_verified": false
+}
