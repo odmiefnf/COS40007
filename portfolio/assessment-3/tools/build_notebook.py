@@ -391,7 +391,7 @@ for ax,name in zip(axes,[best_traditional,best_ann]):
 fig.suptitle('Confusion matrices - CV-selected traditional and validation-selected ANN')
 fig.tight_layout(); savefig('04_confusion_matrices.png')
 for name in [best_traditional,best_ann]:
-    print('\nCLASSIFICATION REPORT:',name)
+    print('CLASSIFICATION REPORT:',name)
     print(classification_report(y_test,predictions[name],target_names=CLASS_NAMES,digits=4))
     pd.DataFrame(classification_report(y_test,predictions[name],target_names=CLASS_NAMES,
         output_dict=True)).T.to_csv(OUT/(name.lower().replace(' ','_')+'_classification_report.csv'))

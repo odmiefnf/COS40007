@@ -1,0 +1,3 @@
+model,cv_accuracy,cv_accuracy_sd,cv_weighted_f1,fit_seconds,best_parameters
+Random Forest,0.9183857729138166,0.012943403237938631,0.9175340166871271,5.947428499988746,"{'model__max_depth': None, 'model__min_samples_leaf': 1}"
+sklearn MLP,0.7878522571819425,0.053840504037303324,0.7695260392436307,1.3568891999893822,"{'model__alpha': 0.01, 'model__hidden_layer_sizes': (64, 32)}"

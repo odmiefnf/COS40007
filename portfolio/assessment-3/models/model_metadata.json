@@ -1,0 +1,77 @@
+{
+  "class_names": [
+    "Lower",
+    "Middle",
+    "Higher"
+  ],
+  "class_boundaries": [
+    14.463333333333333,
+    28.406666666666666
+  ],
+  "encoded_features": [
+    "relative_compactness",
+    "surface_area",
+    "wall_area",
+    "roof_area",
+    "overall_height",
+    "glazing_area",
+    "orientation_2",
+    "orientation_3",
+    "orientation_4",
+    "orientation_5",
+    "glazing_distribution_0",
+    "glazing_distribution_1",
+    "glazing_distribution_2",
+    "glazing_distribution_3",
+    "glazing_distribution_4",
+    "glazing_distribution_5"
+  ],
+  "source_features": [
+    "relative_compactness",
+    "surface_area",
+    "wall_area",
+    "roof_area",
+    "overall_height",
+    "orientation",
+    "glazing_area",
+    "glazing_distribution"
+  ],
+  "source_sha256": "483904d33ab6db8bb0d1791d81410c18567c6b967035325a844de8ca97046ddc",
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "keras": "3.12.0",
+    "torch": "2.14.1+cu130",
+    "backend": "torch",
+    "device": "CPU"
+  },
+  "fit_rows": 429,
+  "validation_rows": 108,
+  "test_rows": 231,
+  "selected_traditional": "Random Forest",
+  "selected_ann": "ANN batch 16",
+  "validation_selected_candidate": "Random Forest",
+  "observed_test_leader": "Random Forest",
+  "geometry_count": 12,
+  "row_split_geometry_overlap": 12,
+  "paired_accuracy_interval": [
+    -0.11688311688311692,
+    -0.02164502164502169
+  ],
+  "paired_mcnemar_p": 0.00904118549078703,
+  "majority_baseline_accuracy": 0.29004329004329005,
+  "reload_checks": {
+    "Random Forest": true,
+    "sklearn MLP": true,
+    "ANN batch 16": true,
+    "ANN batch 32": true,
+    "ANN batch 64": true
+  },
+  "fitting_warnings": [],
+  "student_verification": "pending",
+  "authorship_status": "Substantial AI-generated reference; outside the brief whole-code restriction",
+  "canvas_submission_performed": false,
+  "github_publication_performed": false
+}
