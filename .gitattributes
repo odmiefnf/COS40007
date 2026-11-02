@@ -1,0 +1,9 @@
+* -text
+*.csv -text
+*.ipynb -text
+*.h5 binary
+*.keras binary
+*.pkl binary
+*.pdf binary
+*.png binary
+*.zip binary

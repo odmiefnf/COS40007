@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "pages": 15,
+  "sha256": "d168e49200b7435d5c1eba2843cf1f404a1fd8ffb203fbb4c80d257d2e87cf8c",
+  "visual_review": "All 15 pages inspected via rendered contact sheet; pages 11, 13 and 14 inspected at full resolution; no clipping or overlap observed.",
+  "actual_notebook_screenshots": 3,
+  "model_results_match_verified_tables": true
+}

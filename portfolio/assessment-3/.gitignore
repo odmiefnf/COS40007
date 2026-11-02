@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+tools/jupyter/
+output/pdf_qa/
+output/evidence/*-temporary*
